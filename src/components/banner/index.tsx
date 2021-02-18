@@ -1,5 +1,6 @@
 import React from 'react';
 import { FiArrowDown } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 import {
   Container,
   Content,
@@ -25,7 +26,9 @@ const Banner: React.FC = () => (
     </Container>
     <ContainerViewDown>
       <button type="button">
-        <FiArrowDown />
+        <Link to="/#formation">
+          <FiArrowDown />
+        </Link>
       </button>
     </ContainerViewDown>
   </>

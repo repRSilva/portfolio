@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 40px 300px;
+  padding: 100px 300px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -14,4 +14,22 @@ export const Content = styled.div`
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+`;
+
+export const ContainerFluid = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+
+export const ContentFormation = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+
+export const ContentDescription = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
