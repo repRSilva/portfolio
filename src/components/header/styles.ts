@@ -39,7 +39,7 @@ export const Profile = styled.div`
 `;
 
 export const Nav = styled.nav`
-  margin-left: 100px;
+  margin-left: 200px;
   display: flex;
   align-items: center;
   justify-content: center;

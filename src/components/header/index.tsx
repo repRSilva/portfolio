@@ -16,7 +16,6 @@ const Header: React.FC = () => (
         <div>
           <span> Olá, meu nome é</span>
           <strong>Rafael Silva</strong>
-          <span>, sou desenvolvedor de software </span>
         </div>
       </Profile>
       <Nav>
