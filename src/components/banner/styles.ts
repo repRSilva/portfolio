@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
   padding: 100px 300px;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
+  height: calc(100vh - 120px);
 `;
 
 export const Content = styled.div`
