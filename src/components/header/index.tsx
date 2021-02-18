@@ -22,7 +22,7 @@ const Header: React.FC = () => (
       <Nav>
         <NavLink to="#">
           <IoIosArrowBack />
-          <span>Serviços</span>
+          <span>Formação</span>
           <IoIosArrowForward />
         </NavLink>
         <NavLink to="#">
