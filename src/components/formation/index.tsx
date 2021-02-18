@@ -1,11 +1,12 @@
 import { FORMERR } from 'dns';
 import React from 'react';
+import Badge from '../badge';
 import { Container, Content } from './styles';
 
 const Formation: React.FC = () => (
   <Container>
     <Content>
-      <h1>Formation</h1>
+      <Badge text="Formação" />
     </Content>
   </Container>
 );

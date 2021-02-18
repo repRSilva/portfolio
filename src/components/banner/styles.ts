@@ -28,18 +28,6 @@ export const Content = styled.div`
   }
 `;
 
-export const Badge = styled.div`
-  background: #06d6a0;
-  padding: 10px;
-  border-radius: 5px;
-
-  span {
-    color: #28262e;
-    font-size: 14px;
-    font-weight: 600;
-  }
-`;
-
 export const ContainerImage = styled.div`
   display: flex;
   justify-content: space-between;

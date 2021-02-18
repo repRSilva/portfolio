@@ -1,13 +1,12 @@
 import React from 'react';
-import { Container, Content, Badge, ContainerImage } from './styles';
+import { Container, Content, ContainerImage } from './styles';
+import Badge from '../badge';
 import Background from '../../assets/background.png';
 
 const Banner: React.FC = () => (
   <Container>
     <Content>
-      <Badge>
-        <span>Full-Stack Developer</span>
-      </Badge>
+      <Badge text="Full-Stack Developer" />
       <h1>A arte de transformar linhas de código em sonhos.</h1>
       <h4>
         Desenhando e codificando para trazer simplicidade no mundo digital
