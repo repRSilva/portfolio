@@ -24,7 +24,6 @@ export const Profile = styled.div`
 
   div {
     display: flex;
-    flex-direction: row;
     margin-left: 16px;
     line-height: 24px;
 
@@ -40,6 +39,39 @@ export const Profile = styled.div`
 `;
 
 export const Nav = styled.nav`
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    color: #999591;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      margin: 0 5px;
+    }
+    svg {
+      color: #06d6a0;
+      width: 12px;
+      height: 12px;
+    }
+
+    &:hover {
+      color: #06d6a0;
+      font-weight: 500;
+    }
+  }
+`;
+
+export const NavSocial = styled.nav`
   padding: 0 10px;
   margin-left: 100px;
   display: flex;
@@ -52,6 +84,16 @@ export const Nav = styled.nav`
     font-weight: 400;
     text-decoration: none;
     transition: color 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      color: #06d6a0;
+    }
+    span {
+      margin-left: 10px;
+    }
 
     &:hover {
       color: #06d6a0;
