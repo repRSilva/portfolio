@@ -19,17 +19,17 @@ const Header: React.FC = () => (
         </div>
       </Profile>
       <Nav>
-        <NavLink to="#">
+        <NavLink to="/#formation">
           <IoIosArrowBack />
           <span>Formação</span>
           <IoIosArrowForward />
         </NavLink>
-        <NavLink to="#">
+        <NavLink to="/#tecnologies">
           <IoIosArrowBack />
           <span>Tecnologias</span>
           <IoIosArrowForward />
         </NavLink>
-        <NavLink to="#">
+        <NavLink to="/#contact">
           <IoIosArrowBack />
           <span>Contato</span>
           <IoIosArrowForward />
