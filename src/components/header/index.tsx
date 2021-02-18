@@ -21,7 +21,7 @@ const Header: React.FC = () => (
       <Nav>
         <NavLink to="/#formation">
           <IoIosArrowBack />
-          <span>Formação</span>
+          <span>Formações</span>
           <IoIosArrowForward />
         </NavLink>
         <NavLink to="/#tecnologies">
