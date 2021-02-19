@@ -3,27 +3,17 @@ import styled from 'styled-components';
 export const Container = styled.div`
   padding: 100px 300px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
   background: #312e38;
 `;
 
 export const Content = styled.div`
-  max-width: 450px;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-
-  > span {
-    font-size: 36px;
-    color: #06d6a0;
-  }
-`;
-
-export const ContainerFluid = styled.div`
-  display: flex;
-  flex: 1;
+  justify-content: space-between;
+  align-items: center;
 
   > span {
     margin-top: 40px;
