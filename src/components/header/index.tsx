@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FiGithub } from 'react-icons/fi';
+import { AiFillLinkedin } from 'react-icons/ai';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import { Container, Content, Profile, Nav, NavSocial } from './styles';
 
@@ -18,14 +19,14 @@ const Header: React.FC = () => (
         </div>
       </Profile>
       <Nav>
-        <NavLink to="/#formation">
-          <IoIosArrowBack />
-          <span>Formações</span>
-          <IoIosArrowForward />
-        </NavLink>
         <NavLink to="/#tecnologies">
           <IoIosArrowBack />
           <span>Tecnologias</span>
+          <IoIosArrowForward />
+        </NavLink>
+        <NavLink to="/#formation">
+          <IoIosArrowBack />
+          <span>Formações</span>
           <IoIosArrowForward />
         </NavLink>
         <NavLink to="/#contact">
@@ -35,14 +36,18 @@ const Header: React.FC = () => (
         </NavLink>
       </Nav>
       <NavSocial>
-        <NavLink to="#">
+        <a href="https://github.com/repRSilva" rel="noreferrer" target="_blank">
           <FiGithub />
           <span>Github</span>
-        </NavLink>
-        <NavLink to="#">
-          <FiLinkedin />
+        </a>
+        <a
+          href="https://linkedin.com/in/rafael-silva-358312119"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <AiFillLinkedin />
           <span>Linkedin</span>
-        </NavLink>
+        </a>
       </NavSocial>
     </Content>
   </Container>

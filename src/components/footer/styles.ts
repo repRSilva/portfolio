@@ -66,8 +66,6 @@ export const Nav = styled.div`
     }
     svg {
       color: #06d6a0;
-      width: 12px;
-      height: 12px;
     }
 
     &:hover {

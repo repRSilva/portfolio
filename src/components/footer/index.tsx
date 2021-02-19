@@ -1,7 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
-import { FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FiGithub } from 'react-icons/fi';
+import { AiFillLinkedin } from 'react-icons/ai';
 import { Container, Content, Profile, Nav, Copyright } from './styles';
 
 const Footer: React.FC = () => (
@@ -18,14 +19,14 @@ const Footer: React.FC = () => (
       </Profile>
       <Nav>
         <span>Links úteis</span>
-        <NavLink to="/#formation">
-          <IoIosArrowBack />
-          <span>Formações</span>
-          <IoIosArrowForward />
-        </NavLink>
         <NavLink to="/#tecnologies">
           <IoIosArrowBack />
           <span>Tecnologias</span>
+          <IoIosArrowForward />
+        </NavLink>
+        <NavLink to="/#formation">
+          <IoIosArrowBack />
+          <span>Formações</span>
           <IoIosArrowForward />
         </NavLink>
         <NavLink to="/#contact">
@@ -36,14 +37,18 @@ const Footer: React.FC = () => (
       </Nav>
       <Nav>
         <span>Contatos</span>
-        <NavLink to="#">
+        <a href="https://github.com/repRSilva" rel="noreferrer" target="_blank">
           <FiGithub />
           <span>Github</span>
-        </NavLink>
-        <NavLink to="#">
-          <FiLinkedin />
+        </a>
+        <a
+          href="https://linkedin.com/in/rafael-silva-358312119"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <AiFillLinkedin />
           <span>Linkedin</span>
-        </NavLink>
+        </a>
       </Nav>
     </Content>
     <Copyright>
