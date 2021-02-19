@@ -9,7 +9,6 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  max-width: 500px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
