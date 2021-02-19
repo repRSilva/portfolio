@@ -39,7 +39,6 @@ export const Profile = styled.div`
 `;
 
 export const Nav = styled.nav`
-  margin-left: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +72,6 @@ export const Nav = styled.nav`
 
 export const NavSocial = styled.nav`
   padding: 0 10px;
-  margin-left: 100px;
   display: flex;
   justify-content: space-between;
 
