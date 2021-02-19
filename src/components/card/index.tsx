@@ -6,10 +6,17 @@ interface CardProps {
   institution: string;
   course: string;
   date: string;
+  style?: React.CSSProperties;
 }
 
-const Card: React.FC<CardProps> = ({ title, institution, course, date }) => (
-  <Container>
+const Card: React.FC<CardProps> = ({
+  title,
+  institution,
+  course,
+  date,
+  style,
+}) => (
+  <Container style={style}>
     <Content>
       <span>{title}</span>
       <div>
