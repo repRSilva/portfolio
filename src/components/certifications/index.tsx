@@ -16,7 +16,7 @@ const Certification: React.FC = () => (
           date="29/11/2020"
         />
         <Card
-          style={{ marginLeft: 40, background: '#28262e' }}
+          style={{ marginLeft: 104, background: '#28262e' }}
           title="UX Designer"
           institution="Instituto de Gestão e Tecnologia da Informação - IGTI"
           course="Bootcamp UX Designer"

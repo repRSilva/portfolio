@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
-import { HiOutlineMail } from 'react-icons/hi';
 import { Container, Content, Profile, Nav, NavSocial } from './styles';
 
 const Header: React.FC = () => (
@@ -43,10 +42,6 @@ const Header: React.FC = () => (
         <NavLink to="#">
           <FiLinkedin />
           <span>Linkedin</span>
-        </NavLink>
-        <NavLink to="#">
-          <HiOutlineMail />
-          <span>E-mail</span>
         </NavLink>
       </NavSocial>
     </Content>
