@@ -8,14 +8,14 @@ const Certification: React.FC = () => (
     <Badge text="Certificações" />
     <Content>
       <Card
-        // style={{ background: '#28262e' }}
+        style={{ background: '#28262e' }}
         title="Scrum"
         institution="CertiProf Professional Knowledge"
         course="Scrum Fundation Professional Certificate - SFPC"
         date="29/11/2020"
       />
       <Card
-        // style={{ marginLeft: 104, background: '#28262e' }}
+        style={{ background: '#28262e' }}
         title="UX Designer"
         institution="Instituto de Gestão e Tecnologia da Informação - IGTI"
         course="Bootcamp UX Designer"

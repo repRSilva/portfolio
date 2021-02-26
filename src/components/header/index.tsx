@@ -19,7 +19,7 @@ const Header: React.FC = () => (
         </div>
       </Profile>
       <Nav>
-        <NavLink to="/#tecnologies">
+        <NavLink to="/#technologies">
           <IoIosArrowBack />
           <span>Tecnologias</span>
           <IoIosArrowForward />
