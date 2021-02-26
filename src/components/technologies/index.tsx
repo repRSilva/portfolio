@@ -45,7 +45,7 @@ const Technologies: React.FC = () => {
     {
       name: 'React Native',
       icon: SiReact,
-      color: '##5667f9',
+      color: '#5667f9',
     },
   ];
 

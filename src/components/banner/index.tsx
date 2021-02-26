@@ -26,7 +26,7 @@ const Banner: React.FC = () => (
     </Container>
     <ContainerViewDown>
       <button type="button">
-        <Link to="/#formation">
+        <Link to="/#technologies">
           <FiArrowDown />
         </Link>
       </button>
