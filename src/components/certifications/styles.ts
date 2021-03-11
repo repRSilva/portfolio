@@ -7,13 +7,26 @@ export const Container = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   background: #312e38;
+
+  @media (max-width: 1024px) {
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Content = styled.div`
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   > span {
     margin-top: 40px;

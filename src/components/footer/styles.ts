@@ -9,6 +9,13 @@ export const Content = styled.div`
   padding: 0 200px;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
 `;
 
 export const Profile = styled.div`
@@ -39,16 +46,25 @@ export const Profile = styled.div`
 `;
 
 export const Nav = styled.div`
-  > span {
-    font-size: 20px;
-    color: #06d6a0;
-    font-weight: 500;
-  }
-
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+
+  @media (max-width: 800px) {
+    justify-content: center;
+    align-items: center;
+  }
+
+  > span {
+    font-size: 20px;
+    color: #06d6a0;
+    font-weight: 500;
+
+    @media (max-width: 800px) {
+      margin-top: 40px;
+    }
+  }
 
   a {
     color: #999591;
@@ -60,6 +76,10 @@ export const Nav = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 800px) {
+      margin-top: 15px;
+    }
 
     span {
       margin: 0 5px;
@@ -82,6 +102,10 @@ export const Copyright = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 800px) {
+    margin-top: 20px;
+  }
 
   span {
     font-size: 14px;

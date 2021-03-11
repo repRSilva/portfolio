@@ -6,24 +6,43 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   background: #28262e;
+
+  @media (max-width: 1024px) {
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const Content = styled.div`
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
 
+  @media (max-width: 1024px) {
+    align-items: center;
+  }
+
   > span {
     font-size: 36px;
     color: #06d6a0;
+
+    @media (max-width: 1024px) {
+      margin-top: 40px;
+    }
   }
 `;
 
 export const ContainerFluid = styled.div`
   display: flex;
   flex-direction: column;
-  width: 600px;
+  max-width: 600px;
+
+  @media (max-width: 1024px) {
+    text-align: center;
+  }
 
   > span {
     margin-top: 40px;

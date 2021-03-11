@@ -3,10 +3,14 @@ import styled from 'styled-components';
 export const Container = styled.div`
   padding: 100px 300px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background: #28262e;
+
+  @media (max-width: 1024px) {
+    padding: 40px;
+  }
 
   h1 {
     font-size: 36px;
@@ -16,6 +20,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   margin-top: 50px;
@@ -28,5 +33,9 @@ export const Content = styled.div`
 
   :hover {
     box-shadow: 4px 4px 15px #06d6a0;
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
   }
 `;

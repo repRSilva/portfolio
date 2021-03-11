@@ -5,6 +5,10 @@ export const Container = styled.div`
   align-items: center;
   justify-content: stretch;
   flex-direction: column;
+
+  @media (max-width: 800px) {
+    margin-bottom: 30px;
+  }
 `;
 
 export const ContainerImage = styled.div`
@@ -20,6 +24,10 @@ export const Content = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 800px) {
+    margin-top: 10px;
+  }
 
   span {
     font-size: 20px;

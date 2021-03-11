@@ -9,6 +9,10 @@ const Container = styled.div`
     color: #28262e;
     font-size: 20px;
     font-weight: 600;
+
+    @media (max-width: 840px) {
+      font-size: 14px;
+    }
   }
 `;
 

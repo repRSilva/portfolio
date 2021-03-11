@@ -8,8 +8,14 @@ export const Container = styled.div`
 export const Content = styled.div`
   padding: 0 200px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 1024px) {
+    padding: 0 40px;
+    flex-direction: column;
+    justify-content: center;
+  }
 `;
 
 export const Profile = styled.div`
@@ -29,6 +35,10 @@ export const Profile = styled.div`
 
     span {
       color: #f4ede8;
+
+      @media (max-width: 1024px) {
+        display: none;
+      }
     }
 
     strong {
@@ -43,6 +53,10 @@ export const Nav = styled.nav`
   align-items: center;
   justify-content: center;
 
+  @media (max-width: 1024px) {
+    margin-top: 20px;
+  }
+
   a {
     color: #999591;
     margin-left: 20px;
@@ -53,6 +67,10 @@ export const Nav = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 1024px) {
+      margin-left: 0;
+    }
 
     span {
       margin: 0 5px;
@@ -74,6 +92,10 @@ export const NavSocial = styled.nav`
   padding: 0 10px;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 800px) {
+    margin-top: 20px;
+  }
 
   a {
     color: #999591;

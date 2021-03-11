@@ -6,7 +6,7 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import { Container, Content, Profile, Nav, NavSocial } from './styles';
 
 const Header: React.FC = () => (
-  <Container>
+  <Container id="header">
     <Content>
       <Profile>
         <img

@@ -5,8 +5,8 @@ export const Container = styled.div`
   background: #312e38;
   padding: 40px;
   display: flex;
+  flex-wrap: wrap;
   margin-top: 40px;
-  width: 600px;
   box-shadow: 1px 1px 5px #999591;
   transition: box-shadow 0.5s;
 

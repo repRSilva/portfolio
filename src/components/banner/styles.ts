@@ -1,11 +1,20 @@
 import styled, { keyframes } from 'styled-components';
 import { shade } from 'polished';
 
-export const Container = styled.div`
+interface ContainerProps {
+  headerHeight: string;
+}
+
+export const Container = styled.div<ContainerProps>`
   padding: 100px 300px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  height: calc(100vh - 160px);
+  height: calc(100vh - ${props => props.headerHeight});
+
+  @media (max-width: 1024px) {
+    padding: 40px;
+  }
 `;
 
 export const Content = styled.div`
@@ -13,6 +22,11 @@ export const Content = styled.div`
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+
+  @media (max-width: 1024px) {
+    align-items: center;
+    text-align: center;
+  }
 
   h1 {
     margin-top: 30px;
@@ -32,6 +46,10 @@ export const ContainerImage = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 
   img {
     width: 800px;
@@ -64,6 +82,9 @@ export const ContainerViewDown = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 800px) {
+  }
 
   button {
     background: transparent;
